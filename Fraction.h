@@ -7,7 +7,7 @@ private:
 	int m_numerator;
 	int m_denominator;
 
-	static void reduce(int numerator, int denominator);
+	void reduce();
 public:
 	Fraction();
 	Fraction(int numerator, int denominator);

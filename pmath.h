@@ -7,6 +7,11 @@ namespace pmath
 	
 	int gcd(int a, int b);
 
+	template<typename T>
+	bool is_neg(T number)
+	{
+		return number > 0 ? false : true;
+	}
 }
 
 #endif

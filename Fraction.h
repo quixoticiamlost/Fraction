@@ -12,7 +12,7 @@ public:
 	Fraction();
 	Fraction(int number);
 	Fraction(int numerator, int denominator);
-	//Fraction(double number);
+	Fraction(double number);
 	
 	Fraction & operator= (const Fraction & rhs);
 
@@ -28,8 +28,7 @@ public:
 
 	bool operator==(const Fraction & rhs) const;
 	bool operator!=(const Fraction & rhs) const;
-
-	
+ 
 	
 };
 
